@@ -1,0 +1,114 @@
+  
+  /* Section Styling */
+  .cat-list {
+    padding: 0px 30px 30px 30px;
+    background:linear-gradient( to bottom,rgb(218, 218, 179), rgb(211, 174, 180)/*rgb(183, 180, 180)*/);
+  }
+  
+  .cat-list h1 {
+    text-align: center;
+    color: #360858;
+    font-size: 2.3rem;
+    margin-bottom: 30px;
+  }
+  
+  /* Cards Container */
+  .cat-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  /* Cat Card */
+  .cat-card {
+    background-color: white;
+    border: 0.5px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 250px;
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .cat-card:hover {
+    transform: translateY(-5px);
+    box-shadow:8px 8px 1px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Cat Card Image */
+  .cat-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  /* Cat Card Text */
+  .cat-card h3 {
+    margin: 10px 0;
+    font-size: 1.5rem;
+    color: #444;
+  }
+  
+  .cat-card p {
+    color: #555;
+    font-size: 0.95rem;
+    margin: 5px 0;
+  }
+  
+  .cat-card .tagline {
+    font-style: italic;
+    color: #777;
+    margin-bottom: 10px;
+  }
+  
+  /* Card Buttons */
+  .cat-card-buttons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .cat-card-buttons .btn {
+    padding: 8px 12px;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cat-card-buttons .adopt-btn {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .cat-card-buttons .adopt-btn:hover {
+    background-color: #218838;
+  }
+  
+  .cat-card-buttons .details-btn {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .cat-card-buttons .details-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .cat-cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .cat-card {
+      width: 90%;
+    }
+  }
+  

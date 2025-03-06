@@ -1,0 +1,44 @@
+.hero {
+  height: 84vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  padding: 20px 10px;
+  position: relative;
+  overflow: hidden;
+  background: white;
+  
+  
+}
+
+.hero h1 {
+  color: #510491;
+  margin: 20px 10px;
+  font-size: 2.5em;
+  position: relative;
+  z-index: 2;
+  
+}
+
+.hero p {
+  margin: 15px 150px;
+  font-size: 1.1em;
+  color: rgb(63, 62, 62);
+  position: relative;
+  z-index: 2;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 80%;
+  background-image: url("./Images/petss.jpg");
+  background-size: contain; /* Ensures the full image fits inside */
+  background-repeat: no-repeat; /* Prevents repeating */
+  background-position: center bottom; /* Keeps the image aligned to the bottom */
+  z-index: 1;
+}

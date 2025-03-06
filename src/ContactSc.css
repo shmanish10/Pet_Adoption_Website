@@ -1,0 +1,129 @@
+
+.contact-section {
+ /* background: linear-gradient(110deg, #fb5e75, #420276 );*/
+    background:linear-gradient(to bottom, rgb(218, 218, 179),  rgb(241, 173, 185));
+    color: white;
+    padding: 20px 40px;
+    height: 71vh;
+  }
+  
+  .contact-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  @media (min-width: 768px) {
+    .contact-container {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  .contact-left,
+  .contact-center,
+  .contact-right {
+    text-align: left;
+    
+  }
+  
+  .contact-left h2,
+  .contact-center h2,
+  .contact-right h2 {
+    text-align: left;
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+    color:#360858 ;
+  }
+  
+  .contact-left p,
+  .contact-right p {
+    color: #3e076a;
+    margin-bottom: 30px;
+    line-height: 1.5;
+    font-size: 1.1rem;
+  }
+  
+  
+  .social-icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: blue;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .icon.facebook:hover {
+    background-color: #3b5998;
+    color: white;
+    box-shadow: 0 4px 6px wheat, 
+    0 -4px 6px wheat,
+    -4px 0 6px wheat, 
+    4px 0 6px wheat;
+  }
+  
+  .icon.instagram:hover {
+    background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+    color: white;
+    box-shadow: 0 4px 6px wheat, /* Bottom shadow */
+    0 -4px 6px wheat, /* Top shadow */
+    -4px 0 6px wheat, /* Left shadow */
+    4px 0 6px wheat; /* Right shadow */
+  }
+  
+  .contact-center ul {
+    list-style: none;
+    padding-left: 10px;
+    color: white;
+  }
+  
+  .contact-center ul li {
+    margin-bottom: 10px;
+  }
+  
+  .contact-center ul li a {
+    color: #3e076a;
+    font-size: 1.1rem;
+    text-decoration: none;
+  }
+  .contact-box {
+    background-color:beige;
+    color: #3e076a;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+   /* border: 1px solid #6504b5;*/
+  }
+  
+  .contact-box .label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #3e076a;
+  }
+  
+  .contact-box a {
+    color: #540297;
+    text-decoration: none;
+  }
+  .contact-box p{
+    color: #540297;
+  }
+  
+  .contact-box a:hover {
+    text-shadow:2px 2px 5px white;
+    color:rgb(6, 6, 156);
+  }
+  

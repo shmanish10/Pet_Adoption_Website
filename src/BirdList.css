@@ -1,0 +1,120 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* Section Styling */
+.bird-list {
+    margin: 0px 10px 50px 10px ;
+    padding: 0px 30px;
+}
+
+.bird-list h1 {
+    text-align: center;
+    color:#360858 ;
+    font-size: 2.3em;
+    margin-bottom: 30px;
+}
+
+/* Cards Container */
+.bird-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Bird Card */
+.bird-card {
+    background-color: white;
+    border: 0.5px solid white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 250px;
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.bird-card:hover {
+    transform: translateY(-5px);
+  box-shadow: 8px 8px 1px rgba(0, 0, 0, 0.3);
+}
+
+/* Bird Card Image */
+.bird-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Bird Card Text */
+.bird-card h3 {
+    margin: 10px 0;
+    font-size: 1.5rem;
+    color: #444;
+}
+
+.bird-card p {
+    color: #555;
+    font-size: 0.95rem;
+    margin: 5px 0;
+}
+
+.bird-card .tagline {
+    font-style: italic;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+/* Card Buttons */
+.bird-card-buttons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.bird-card-buttons .btn {
+    padding: 8px 12px;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.bird-card-buttons .adopt-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+.bird-card-buttons .adopt-btn:hover {
+    background-color: #218838;
+}
+
+.bird-card-buttons .details-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+.bird-card-buttons .details-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .bird-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bird-card {
+        width: 90%;
+    }
+}

@@ -1,0 +1,15 @@
+
+.footer-bottom {
+    background: linear-gradient(to right,#2f0253 , rgb(48, 48, 48)  );
+    color: white;
+    padding: 8px 30px;
+    text-align: center;
+
+  }
+  
+  .footer-bottom p {
+    font-size: 1.1rem;
+    color: white;
+    font-weight: bold;
+  }
+  

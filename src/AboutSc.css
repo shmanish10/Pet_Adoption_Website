@@ -1,0 +1,21 @@
+
+.about-section{
+  
+    padding: 20px 80px 20px 80px;
+    background:linear-gradient(to bottom,rgb(252, 247, 247), rgb(218, 218, 179));
+  }
+  .about-section h2{
+    text-align: center;
+    color: #360858;
+    margin: 10px 10px;
+    font-size: 2.3em;
+  }
+  .about-us{
+    text-align: justify;
+    margin: 20px 10px;
+  }
+  .about-us p{
+  color: black;
+  font-size: large;
+  }
+  

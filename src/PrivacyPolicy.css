@@ -1,0 +1,58 @@
+.privacy-section {
+    
+    
+    padding: 20px 80px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: "Arial", sans-serif;
+    line-height: 1.6;
+    color: black; 
+    background:linear-gradient( to bottom, rgb(211, 174, 180),rgb(218, 218, 179));
+}
+  
+  
+  .privacy-section h1 {
+    text-align: center;
+    color: #360858;
+    margin: 10px 10px;
+    font-size: 2.3em;
+  }
+  
+  .privacy-section h2 {
+    text-align: left; 
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+    margin-top: 20px;
+    padding-bottom: 5px;
+  }
+  
+  .privacy-section p,
+  .privacy-section ul {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: black;
+  }
+  
+  .privacy-section ul {
+    margin-left: 20px;
+  }
+  
+  .privacy-section ul li {
+    margin-bottom: 10px;
+    color: black;
+  }
+  
+  .privacy-section strong {
+    font-weight: bold;
+  }
+
+  .privacy-contact{
+    margin-top: 20px;
+    padding: 15px;
+    background-color: beige;
+    border-left: 4px solid black;
+  }
+  
+  
+  
