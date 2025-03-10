@@ -37,7 +37,7 @@ function PetSc() {
                         </div>
 
                         <div className="pet-card">
-                            <img src="https://betterpet.com/wp-content/uploads/2022/07/fox-red-labrador-retriever.jpeg" 
+                            <img src="https://d128mjo55rz53e.cloudfront.net/media/images/blog-breed-Labrador-3.max-400x400.format-jpeg.jpg" 
                                  alt="Labrador Retriever" />
                             <h3>Rocky</h3>
                             <p><strong>Breed:</strong> Labrador Retriever</p>
